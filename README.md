@@ -19,7 +19,7 @@ options:
   -b BATCH_SIZE, --batch_size BATCH_SIZE
                         batch size (default: 128)
   -n N_COMPONENTS, --n_components N_COMPONENTS
-                        pca n_components, must be less or equal to the batch number of samples (default: 500)
+                        pca n_components, must be less or equal to the batch number of samples (default: 128)
   -v VALIDATION_RATIO, --validation_ratio VALIDATION_RATIO
                         ratio for validation (default: 0.1)
   -p DATA_PATH, --data_path DATA_PATH
