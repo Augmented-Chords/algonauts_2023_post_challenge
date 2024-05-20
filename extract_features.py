@@ -86,7 +86,7 @@ def main():
     parser.add_argument('-d','--device',type=str,default='cuda',help="torch device (default: cuda)")
     parser.add_argument('-r','--rand_seed',type=int,default=5,help="random seed (default: 5)") 
     parser.add_argument('-b','--batch_size',type=int,default=128,help="batch size (default: 128)")
-    parser.add_argument('-n','--n_components',type=int,default=500,help="pca n_components, must be less or equal to the batch number of samples (default: 500)")
+    parser.add_argument('-n','--n_components',type=int,default=128,help="pca n_components, must be less or equal to the batch number of samples (default: 128)")
     parser.add_argument('-v','--validation_ratio',type=float,default=0.1,help="ratio for validation (default: 0.1)")
     parser.add_argument('-p','--data_path',type=str,default='algonauts_2023_challenge_data',help="path of algonauts 2023 challenge data (default: algonauts_2023_challenge_data)")
     parser.add_argument('-o','--output_path',type=str,default='algonauts_2023_features_concatenated',help="output path of features (default: algonauts_2023_features_concatenated)")   
